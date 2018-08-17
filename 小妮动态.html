@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<!--解决ios下数值变色-->
+		<meta name = "format-detection" content="telephone = no" />
+		<title></title>
+		<link type="text/css" href="css/style.css" rel="stylesheet" />
+		<link type="text/css" href="css/video-js.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="pmt">
+          <div class="header">
+			<a href="javascript:;" class="btn_back"><</a>
+			<h3 class="title">小妮动态</h3>
+		  </div>
+		  <div class="dongt">
+		  	<ul>
+		  		<li>
+		  			<div class="top">
+		  				<img src="images/img9.png">
+		  				<div class="top_text">
+		  					<h3 class="name">妮可儿美妆</h3>
+		  					<div class="time">2016.06.23  17:55:22</div>
+		  				</div>
+		  			</div>
+		  			<div class="text">
+		  				<P>感觉还不错，喷上不油腻，比涂抹的要好用很多，方便快捷，化妆也不影响,这款防晒是无色的，有香味，是那种我没有办法用语言描述的味道，哈哈哈。总的来说还是不错的</P>
+		  				<dl>
+		  					<dd><img src="images/img10.png"></dd>
+		  					<dd><img src="images/img10.png"></dd>
+		  					<dd><img src="images/img10.png"></dd>
+		  					<dd><img src="images/img10.png"></dd>
+		  					<dd><img src="images/img10.png"></dd>
+		  					<dd><img src="images/img10.png"></dd>
+		  					<dd><img src="images/img10.png"></dd>
+		  					<dd><img src="images/img10.png"></dd>
+		  					<dd><img src="images/img10.png"></dd>
+		  				</dl>
+		  			</div>
+		  			<div class="dom">
+		  				<div class="dom_t">
+		  					<a href="javascript:;" class="btn_zs"><i></i><span class="num">4</span></a>
+		  					<a href="javascript:;" class="btn_pl active"><i></i><span class="num">18</span></a>
+		  				</div>
+		  			</div>
+		  			<div class="form">
+		  				<div class="form_top"><strong class="stn">妮可儿美妆</strong><span class="time">2016.06.23  17:55:22</span></div>
+		  				<P>非常好，赞一个</P>
+		  				<form class="form_text">
+		  					<input type="text" class="form_t" placeholder="我也说一句" /><button class="btn_st">发表</button>
+		  				</form>
+		  			</div>
+		  		</li>
+		  	</ul>
+		  	<ul>
+		  		<li>
+		  			<div class="top">
+		  				<img src="images/img9.png">
+		  				<div class="top_text">
+		  					<h3 class="name">妮可儿美妆</h3>
+		  					<div class="time">2016.06.23  17:55:22</div>
+		  				</div>
+		  			</div>
+		  			<div class="text">
+		  				<P>得鲜卧蚕笔 原先3个色，后来出来2个色</P>
+		  				<P>得鲜不仅靠M06打下口红的半壁江山...</P>
+		  				<P>还是卧蚕笔中的战斗机。。。</P>
+		  				<!---->
+					    <video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="none" poster="http://video-js.zencoder.com/oceans-clip.png" data-setup="{}">
+						    <!--<source src="1099.mp4" type='video/mp4' />-->
+						    <!--<source src="http://视频地址格式2.webm" type='video/webm' />-->
+						    <source src="movie.ogg" type='video/ogg' />
+						    <track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+						    <track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+						</video>
+					    <!---->
+		  			</div>
+		  			<div class="dom">
+		  				<div class="dom_t">
+		  					<a href="javascript:;" class="btn_zs"><i></i><span class="num">4</span></a>
+		  					<a href="javascript:;" class="btn_pl active"><i></i><span class="num">18</span></a>
+		  				</div>
+		  			</div>
+		  			<div class="form">
+		  				<div class="form_top"><strong class="stn">妮可儿美妆</strong><span class="time">2016.06.23  17:55:22</span></div>
+		  				<P>非常好，赞一个</P>
+		  				<form class="form_text">
+		  					<input type="text" class="form_t" placeholder="我也说一句" /><button class="btn_st">发表</button>
+		  				</form>
+		  			</div>
+		  		</li>
+		  	</ul>
+		  </div>
+		</div>
+		<div class="foot">
+			<a href="#" class="a1 active"><i></i><P>首页</P></a>
+			<a href="#" class="a2"><i></i><P>分类</P></a>
+			<a href="#" class="a3"><i></i><P>妮子圈</P></a>
+			<a href="#" class="a4"><i></i><P>购物车</P></a>
+			<a href="#" class="a5"><i></i><P>我的</P></a>
+		</div>
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/style.js"></script>	
+		<script src="js/video.min.js"></script>
+		<script>
+		    videojs.options.flash.swf = "video-js.swf";
+		</script>
+	</body>
+</html>
